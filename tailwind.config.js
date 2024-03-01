@@ -8,9 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "home-cta": `radial-gradient(circle, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('${process.env.NEXT_PUBLIC_BASEPATH}/optimized/nrg-1024px.webp');`,
+        "map": `radial-gradient(circle, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('${process.env.NEXT_PUBLIC_BASEPATH}/optimized/map-1024px.webp');`,
       },
     },
   },
